@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "0ca1dd96-1506-4466-b692-3cbc5f85dc8e",
+		"name": "Json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n   \"address\":{\r\n      \"street\":\"jl bahagia\",\r\n      \"city\":\"jakarta\",\r\n      \"state\":\"IND\",\r\n      \"zip\":\"11520\"\r\n   },\r\n   \"first_name\":\"darmawan\",\r\n   \"last_name\":\"mantep\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8181/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n   \"address\":{\r\n      \"street\":\"jl bahagia\",\r\n      \"city\":\"jakarta\",\r\n      \"state\":\"IND\",\r\n      \"zip\":\"11520\"\r\n   },\r\n   \"first_name\":\"darmawan\",\r\n   \"last_name\":\"mantep\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8181/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getEmployees"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
